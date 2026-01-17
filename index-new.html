@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data & Business Analytics Portfolio</title>
+    <link rel="stylesheet" href="css/style-redesign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Watermark -->
+    <div class="page-watermark">Portfolio</div>
+    
+    <!-- Background Grid Pattern -->
+    <div class="grid-background"></div>
+
+    <!-- Main Card Container -->
+    <div class="hero-card">
+        <!-- Card Header with Logo and Navigation -->
+        <div class="card-header">
+            <div class="card-logo">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <nav class="card-nav">
+                <a href="#home" class="nav-item">Home</a>
+                <span class="nav-separator">/</span>
+                <a href="#about" class="nav-item">Skills</a>
+                <span class="nav-separator">/</span>
+                <a href="#projects" class="nav-item">Works</a>
+                <span class="nav-separator">/</span>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+        </div>
+
+        <!-- Card Content Grid -->
+        <div class="card-content">
+            <!-- Left Column: Hero Text -->
+            <div class="hero-text-column">
+                <h1 class="hero-headline">creative data analyst<br>& developer</h1>
+                <p class="hero-intro">Transforming raw data into actionable insights through strategic analysis, visualization, and business intelligence solutions.</p>
+                
+                <a href="#projects" class="cta-button">
+                    See My Works <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://linkedin.com" class="social-item" target="_blank">LinkedIn</a>
+                    <span class="social-separator">/</span>
+                    <a href="https://github.com" class="social-item" target="_blank">GitHub</a>
+                    <span class="social-separator">/</span>
+                    <a href="content/resume/Lalit_Mohan_Resume-1.pdf" class="social-item" download>Resume</a>
+                </div>
+            </div>
+
+            <!-- Right Column: Visual Element -->
+            <div class="hero-visual-column">
+                <div class="visual-container">
+                    <svg class="x-graphic" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="50" y1="50" x2="350" y2="350" stroke="currentColor" stroke-width="3"/>
+                        <line x1="350" y1="50" x2="50" y2="350" stroke="currentColor" stroke-width="3"/>
+                    </svg>
+                    <div class="profile-image-wrapper">
+                        <img src="assets/images/1679847513298.jpeg" alt="Profile" class="hero-profile-image">
+                    </div>
+                </div>
+                <div class="visual-sidebar">
+                    <div class="sidebar-label">analyst</div>
+                    <div class="sidebar-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Section Inside Card -->
+        <div class="card-section" id="projects">
+            <h2 class="section-title">Selected Works</h2>
+            <div id="projects-container" class="projects-grid-redesign">
+                <!-- Projects loaded dynamically -->
+            </div>
+        </div>
+
+        <!-- Skills Section Inside Card -->
+        <div class="card-section" id="about">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid-redesign">
+                <div class="skill-category">
+                    <h3 class="skill-title">Data Analysis</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-title">Visualization</h3>
+                    <ul class="skill-list">
+                        <li>Seaborn & Matplotlib</li>
+                        <li>Plotly</li>
+                        <li>Data Storytelling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-title">Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Scikit-learn</li>
+                        <li>Predictive Modeling</li>
+                        <li>Classification</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-title">Business Analytics</h3>
+                    <ul class="skill-list">
+                        <li>KPI Analysis</li>
+                        <li>Insights & Strategy</li>
+                        <li>Report Generation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card-section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">Open to internship opportunities and collaboration.</p>
+            <div class="contact-methods">
+                <a href="mailto:lalitmohanamuse@gmail.com" class="contact-link">Email</a>
+                <a href="https://www.linkedin.com/in/lalitmohan-kumar" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="https://www.github.com/lalitm0428/f1-strategy-dashboard" class="contact-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main-redesign.js"></script>
+</body>
+</html>
